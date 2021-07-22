@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import * as FaIcon from 'react-icons/fa';
-import * as iClose from "react-icons/io5";
+import * as ioIcon from "react-icons/io5";
 import { Link } from 'react-router-dom';
 
 function Menu() {
@@ -17,7 +17,7 @@ function Menu() {
                 <ul className='nav-menu-item'>
                     <li className='nav-menu-toggle'>
                         <Link to='#' className='menu-bars'>
-                            <iClose.IoClose />
+                            <ioIcon.IoClose />
                         </Link>
                     </li>
                 </ul>
