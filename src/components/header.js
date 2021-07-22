@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import '../stylesheet/Header.css';
 import headerImage from '../img/header.png';
 
