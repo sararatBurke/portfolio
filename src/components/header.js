@@ -1,6 +1,6 @@
 import React from 'react';
-import '../stylesheet/Header.css';
-import headerImage from '../img/header.png';
+import './stylesheet/Header.css';
+import headerImage from './img/header.png';
 
 function App() {
   return (
