@@ -3,3 +3,9 @@
   margin: 0;
   padding: 0;
 }
+
+.page-title{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
