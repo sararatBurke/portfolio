@@ -18,23 +18,23 @@ export const MenuData = [
         cName: 'nav-text'
     },
     {
-        title: 'ProJect',
+        title: 'Project',
         path: '/project',
         icon: <ioIcon.IoCodeWorking />,
         cName: 'nav-text'
     },
     {
-        title: 'Education',
-        path: '/education',
-        icon: <FaIcon.FaGraduationCap />,
+        title: 'Skills',
+        path: '/skills',
+        icon: <FaIcon.FaTools />,
         cName: 'nav-text'
     },
-    {
-        title: 'Resume',
-        path: '/resume',
-        icon: <FaIcon.FaFileAlt />,
-        cName: 'nav-text'
-    },
+    // {
+    //     title: 'Resume',
+    //     path: '/resume',
+    //     icon: <FaIcon.FaFileAlt />,
+    //     cName: 'nav-text'
+    // },
     {
         title: 'Contact',
         path: '/contact',

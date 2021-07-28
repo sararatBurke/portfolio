@@ -3,7 +3,7 @@ import * as FaIcon from 'react-icons/fa';
 import * as ioIcon from "react-icons/io5";
 import { Link } from 'react-router-dom';
 import { MenuData } from './menuData';
-import '../stylesheet/menu.css';
+import './stylesheet/menu.css';
 import { IconContext } from 'react-icons';
 
 function Menu() {
@@ -12,12 +12,14 @@ function Menu() {
 
     return (
         <>
-        <IconContext.Provider value={{color: '#f5f5f5'}}>
+        
             <div className="navbar">
                 <Link to='#' className='menu-bars'>
                     <FaIcon.FaBars onClick={showSidbar}/>
                 </Link>
             </div>
+
+            <IconContext.Provider value={{color: '#f5f5f5'}}>
             <nav className={sidebar? 'nav-menu active' : 'nav-menu'}>
                 <ul className='nav-menu-item' onClick={showSidbar}>
                     <li className='nav-menu-toggle'>

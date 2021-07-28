@@ -1,7 +1,7 @@
 .navbar {
-    background-color: #121212;
     height: 80px;
     display: flex;
+    position: fixed;
     justify-content: start;
     align-items: center; 
 }
@@ -9,7 +9,9 @@
 .menu-bars {
     margin-left: 2rem;
     font-size: 2rem;
-    background-color: none;
+    color: #121212;
+    /* background-color: none; */
+
 }
 
 .nav-menu {

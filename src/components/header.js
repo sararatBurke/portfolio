@@ -12,9 +12,9 @@ function App() {
         <p className="headerText">Sararat</p><br/>
         <p className="headerText">A Web</p><br/>
         <p className="headerText">developer</p><br/>
-        <p className="linkText"><a href="Project" className="link">Project</a></p><br/>
         <p className="linkText"><a href="About" className="link">About</a></p><br/>
-        <p className="linkText"><a href="Resume" className="link">Resume</a></p><br/>
+        <p className="linkText"><a href="Project" className="link">Project</a></p><br/>
+        <p className="linkText"><a href="Skills" className="link">Skills</a></p><br/>
         <p className="linkText"><a href="Contact" className="link">Contect</a></p><br/>
         </div>
       </div>
