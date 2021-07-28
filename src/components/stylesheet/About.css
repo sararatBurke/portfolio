@@ -1,0 +1,33 @@
+
+.about-page{
+    padding: 50px;
+    height: 100vh;
+    background-color: #bfbfbf;
+}
+
+.about-content{
+    display: inline-block;
+    width: 50%;
+}
+
+.about-img{
+    width: 60%;
+    display: flex;
+  
+    align-items: center;
+    margin: auto;
+}
+
+.about-header-title{
+    width: 70%;
+    display: start;
+    
+    align-items: left;
+    margin: 0;
+}
+.about-text{
+    width: 70%;
+    align-items: left;
+    margin: 0;
+    
+}
