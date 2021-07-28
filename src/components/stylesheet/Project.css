@@ -1,0 +1,21 @@
+.project-page{
+    padding: 50px;
+    align-items: center;
+    float: right;
+    height: 100vh;
+    width: 100%;
+    background-color: #bfbfbf;
+}
+.project-header-title{
+    margin-left: 5%;
+}
+.project-content{
+    
+    margin: auto;
+    
+}
+.project-img{
+    display: inline-block;
+    width: 29%;
+    margin: 20px;
+}
