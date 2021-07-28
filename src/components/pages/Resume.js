@@ -12,11 +12,11 @@ function Resume() {
                        <h3 className="resume-title">Education</h3>
                         <tr>
                             <th className="date">Jan 2019 - May 2021</th>
-                            <th>Bunker Hill Community College, MA | USA</th>
+                            <th className="event-title">Bunker Hill Community College, MA | USA</th>
                         </tr>
                         <tr>
                             <td></td>
-                            <td>Associate of Science, Web Development | GPA 3.95</td>
+                            <td><i className="sub-event-title">Associate of Science, Web Development | GPA 3.95</i></td>
                         </tr>
                         <tr>
                             <td></td>
@@ -38,11 +38,11 @@ function Resume() {
 
                         <tr>
                             <th className="date">Jun 2006 - Mar 2010</th>
-                            <th>Naresuan University | Thailand</th>
+                            <th className="event-title">Naresuan University | Thailand</th>
                         </tr>
                         <tr>
                             <td></td>
-                            <td>Bachelor of Art, Innovative Media Design</td>
+                            <td><i className="sub-event-title">Bachelor of Art, Innovative Media Design</i></td>
                         </tr>
                         <tr>
                             <td></td>
@@ -55,7 +55,7 @@ function Resume() {
                     <h3 className="resume-title">Experience</h3>
                         <tr>
                             <th className="date">Apr 2017 - Jan 2019</th>
-                            <th>Tri-Star Printing and Graphics,Somerville | Graphic designer</th>
+                            <th className="event-title">Tri-Star Printing and Graphics,Somerville | Graphic designer</th>
                         </tr>
                         <tr>
                             <td></td>
@@ -68,7 +68,7 @@ function Resume() {
 
                         <tr>
                             <th className="date">Aug 2015 - Dec 2016</th>
-                            <th>Self taught | Web Developer</th>
+                            <th className="event-title">Self taught | Web Developer</th>
                         </tr>
                         <tr>
                             <td></td>
@@ -90,7 +90,7 @@ function Resume() {
                         <h3 className="resume-title">Skills</h3>
                             <tr>
                                 <th>Programming: </th>
-                                <td>HTML5, CSS, XML, JavaScript, Ajax, JSON, Node.js, jQuery, React.js, PHP</td>
+                                <td>HTML5<br/> CSS<br/> XML<br/> JavaScript<br/> Ajax<br/> JSON<br/> Node.js<br/> jQuery<br/> React.js<br/> PHP</td>
                             </tr>
                             <tr>
                                 <th>Mobile: </th>
