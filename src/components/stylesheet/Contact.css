@@ -1,0 +1,50 @@
+
+.contact-page{
+    background-color: #191919;
+    height: 100vh;
+}
+
+.contact-content{
+    width: 50%;
+    display: inline-block;
+}
+
+.contact-header-title{
+    color: #f2f2f2;
+    margin-left: 100px;
+    
+}
+
+.interested-list{
+    color: #ababab;
+    font-size: 2em;
+    margin-left: 100px;
+    list-style-type: none;
+    
+}
+.stamp{
+    width: 100%;
+    right: 0;
+    align-items: flex-end;
+    margin-left: 5%;
+    padding: 40px;
+}
+
+.name{
+    color: #f2f2f2;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 10px 50px 5px 0;
+}
+
+.contact-info{
+    color: #ababab;
+    font-size: 1.5em;
+   
+}
+
+.contact-link{
+    color: #f2f2f2;
+   
+
+}
