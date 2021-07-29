@@ -12,12 +12,13 @@ function Menu() {
 
     return (
         <>
-        
+            <IconContext.Provider value={{color: '#666666'}}>
             <div className="navbar">
                 <Link to='#' className='menu-bars'>
                     <FaIcon.FaBars onClick={showSidbar}/>
                 </Link>
             </div>
+            </IconContext.Provider>
 
             <IconContext.Provider value={{color: '#f5f5f5'}}>
             <nav className={sidebar? 'nav-menu active' : 'nav-menu'}>
