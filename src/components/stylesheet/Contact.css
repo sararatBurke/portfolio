@@ -4,10 +4,9 @@
     height: 100vh;
 }
 
-.contact-content{
-    width: 50%;
-    display: inline-block;
-}
+.contact-content{display: inline-block;}
+.content-left{padding-right: 50px;}
+.content-right{padding: 100px 0 0 100px}
 
 .contact-header-title{
     color: #f2f2f2;
@@ -47,4 +46,12 @@
     color: #f2f2f2;
    
 
+}
+
+.vertical-line{
+    border-left: 6px solid #539db6;
+    height: 75%;
+    margin-top: 5%;
+    position: absolute;
+    
 }

@@ -6,7 +6,7 @@ function Contact() {
     return (
         <>
         <div className="contact-page">
-            <div className="contact-content">
+            <div className="contact-content content-left">
            
             <h1 className="page-title contact-header-title">Job Interested</h1>
                 <ul>
@@ -18,8 +18,9 @@ function Contact() {
 
                 </ul>
             </div>
+            <div className="contact-content vertical-line"></div>
            
-            <div className="contact-content">
+            <div className="contact-content content-right">
                     <img className="stamp" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr9J8RyyCES4TyaNx6AkmdvKVxw8CcxXmzgqswcT1B3yuMBt4eo-Q9le-A-vWlvACvAQ&usqp=CAU"></img>                
                 <p className="name">Sararat Burke</p>
                 <p className="contact-info">435 E Broadway, <br/>Haverhille, MA 01830</p>
