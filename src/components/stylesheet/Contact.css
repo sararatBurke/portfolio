@@ -8,6 +8,7 @@
 .content-left{padding-right: 50px;}
 .content-right{padding: 100px 0 0 100px}
 
+/* ---------------Left side ----------------*/
 .contact-header-title{
     color: #f2f2f2;
     margin-left: 100px;
@@ -15,12 +16,29 @@
 }
 
 .interested-list{
-    color: #ababab;
+    color: #cbcbcb;
     font-size: 2em;
     margin-left: 100px;
     list-style-type: none;
     
 }
+.download-button{
+    background-color: #f2f2f2;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-top: 30px;
+
+}
+.download{
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+/* ---------------Right side ----------------*/
 .stamp{
     width: 100%;
     right: 0;
@@ -54,4 +72,9 @@
     margin-top: 5%;
     position: absolute;
     
+}
+
+.contact-link:hover {
+    text-decoration: none;
+    color: #539db6;
 }

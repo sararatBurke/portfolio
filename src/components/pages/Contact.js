@@ -17,6 +17,7 @@ function Contact() {
                     <li className="interested-list"> <ioIcon.IoCheckmarkSharp/> Graphic Design</li>
 
                 </ul>
+                <button className="download-button"><a className="download" target="_blank" href="https://docs.google.com/document/d/1o21McI03d8FwW7JTNZg7UZ-12SdaLFOeWWBRYPjf-ig/edit">Download Resume</a></button>
             </div>
             <div className="contact-content vertical-line"></div>
            
