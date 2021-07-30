@@ -1,6 +1,7 @@
 import React from 'react'
 import '../stylesheet/Contact.css'
 import * as ioIcon from "react-icons/io5";
+import Stamp from '../img/stamp.png';
 
 function Contact() {
     return (
@@ -22,7 +23,7 @@ function Contact() {
             <div className="contact-content vertical-line"></div>
            
             <div className="contact-content content-right">
-                    <img className="stamp" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr9J8RyyCES4TyaNx6AkmdvKVxw8CcxXmzgqswcT1B3yuMBt4eo-Q9le-A-vWlvACvAQ&usqp=CAU"></img>                
+                    <img className="stamp" src={Stamp}></img>                
                 <p className="name">Sararat Burke</p>
                 <p className="contact-info">435 E Broadway, <br/>Haverhille, MA 01830</p>
                 <p className="contact-info">baas.burke@gmail.com</p>
