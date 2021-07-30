@@ -31,12 +31,24 @@
     margin-top: 50px;
 
 }
+.download-button:hover{
+    background-color: #539db6;
+    transition: 100ms;
+}
 .download{
+    width: 100%;
+    height: 100%;
     font-size: 2em;
     font-weight: bold;
     text-decoration: none;
     color: black;
 }
+.download:hover{
+    color: #fff;
+    transition: 100ms;
+    
+}
+
 
 /* ---------------Right side ----------------*/
 .stamp{
