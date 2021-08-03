@@ -1,12 +1,14 @@
 import React from 'react'
 import '../stylesheet/About.css'
+import Image from '../img/about-profile.jpg'
 
 function About() {
     return (
         <>
         <div className="about-page">
             <div className="about-content">
-                <img className="about-img" src="https://www.worldphoto.org/sites/default/files/139813_158163_0_%20%C2%A9%20Noel%20Guevara%2C%20Philippines%2C%20Commended%2C%20Open%20Competition%2C%20Portraits%2C%202017%20Sony%20World%20Photography%20Awards.jpg"></img>
+                <div className="bg-box"></div>
+                <img className="about-img" src={Image}></img>
             </div>
             <div className="about-content">
                 <h1 className="page-title about-header-title">About</h1>

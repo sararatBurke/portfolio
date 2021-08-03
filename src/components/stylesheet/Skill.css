@@ -1,0 +1,22 @@
+.skill-page{
+    padding: 100px;
+    background-color: #bfbfbf;
+}
+.skill-sub-title{
+    text-transform: uppercase;
+}
+.skill, .tool{
+    display: inline-block;
+    width: 150px;
+    height: 175px;
+    padding: 20px;
+    margin: 15px;
+    background-color: #fff;
+
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.skill-img, .tool-img{
+    width: 90%;
+}
