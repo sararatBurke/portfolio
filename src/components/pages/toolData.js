@@ -1,34 +1,41 @@
 import React from 'react'
 
+import ai from '../img/skills/ai.png'
+import id from '../img/skills/id.png'
+import ps from '../img/skills/ps.png'
+import pr from '../img/skills/pr.png'
+import vsCode from '../img/skills/vsCode.png'
+import expo from '../img/skills/expo.png'
+
 const ToolData = [
     {
         title: 'Illustrator',
-        img: 'https://www.pngarea.com/pngm/564/3980832_youtube-logo-hd-png-logo-illustrator-28-images.png',
+        img: ai,
         cTool: 'tool'
     },
     {
         title: 'Indesign',
-        img: 'https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/4_Indesign_Adobe_logo_logos-512.png',
+        img: id,
         cTool: 'tool'
     },
     {
         title: 'Photoshop',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyqCga05i6v6rhqKhZALTzuqHL5vLUp4IQd7W2RbkBbDWI7HjFxq2NmKokKXBzG5kLFIw&usqp=CAU',
+        img: ps,
         cTool: 'tool'
     },
     {
         title: 'Premiere Pro',
-        img: 'https://lh3.googleusercontent.com/proxy/rjE3xYglDFqLZem6GIwlbPYvYb-Jj1OsMhXvbMfZ7LE3XSqdgavfx-noZyguxhD5m-vT_xcOA_NQIng8WuqohkHI33Xh-ZwBNrbNuw',
+        img: pr,
         cTool: 'tool'
     },
     {
         title: 'VS Code',
-        img: 'https://dsoloha.gallerycdn.vsassets.io/extensions/dsoloha/native-macos/0.5.2/1609014619933/Microsoft.VisualStudio.Services.Icons.Default',
+        img: vsCode,
         cTool: 'tool'
     },
     {
         title: 'Expo',
-        img: 'https://play-lh.googleusercontent.com/algsmuhitlyCU_Yy3IU7-7KYIhCBwx5UJG4Bln-hygBjjlUVCiGo1y8W5JNqYm9WW3s',
+        img: expo,
         cTool: 'tool'
     }
 ]
