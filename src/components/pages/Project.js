@@ -16,7 +16,7 @@ function Project() {
                 <a href="https://todoapp-w4.web.app/" target='_blank'>
                     <img className="project-img" src={Todo}></img>
                 </a>
-                <a href="src/components/pages/Project.js" target='_blank'>
+                <a href="https://sararatproject.000webhostapp.com/index.html" target='_blank'>
                     <img className="project-img" src={Art}></img>
                 </a>
             </div>
